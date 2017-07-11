@@ -1,0 +1,62 @@
+<!DOCUMENTTYPE HTML>
+	<html>
+<head>
+<title>Assignment2.4</title>
+<style type="text/css"></style>
+</head>
+<body>
+<h1> This is Assignment 2.4</h1>
+<h2> <b>Assignment:</b> Create a web page by following HTML5 semantics rules:<br>
+a. Create a navigation bar and float the left navigation bar to right. Expand the width and height to 100%.<br>
+b. Use the del, subscript, and superscript tag in the web development heading. Use the hr tag and br tag as well.<br>
+c. Create an HTML5 web page and insert the image with setting up the image size width and height. Use the figure and figcaption tag.<br>
+d. Hyperlink your last created HTML5 to the main index.html content.</h2>
+ <!--This is first part of the assignment -->
+ <!--<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul> -->
+<nav>
+<ul>
+  <li id='home'><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</nav>
+<style>
+#home {
+    float: right;
+}
+li a {
+    display: block;
+    width: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+</style> 
+<!-- Different Tags-->
+<h1> problem b <del>delete this <div>X<sup> 2</sup> <br>or X <sub> 2 </sub></div> </del> <hr> and add <div>y<sup> 2</sup> <br>or y <sub> 2 </sub></div>
+</h1>
+
+</body>
+</html>
